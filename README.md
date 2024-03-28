@@ -80,23 +80,32 @@ Take drug Capomulin and Columns for Tumor Volume, Weight and Mouse ID.
 Group the mouse by 'Mouse ID' so we can find mean values for each individual mouse.
 Find the mean tumor volume for each mouse.
 We Need x and Y series sizes to be the same for plotting a scatter graph.
-        # Assuming the weight stays the same for each mouse, or fluctuates slightly.
-        # find mean weight of each mouse.
+        Therefore:
+		Assuming the weight stays the same for each mouse, or fluctuates only slightly.
+        	Find mean weight of each mouse for the x_values.
+plot scatter, mean tumor size vs mean weight for each mouse.
+
 
 Regression Analysis:
-Correlation Calculation: Calculate the correlation coefficient between mouse weight and average tumor volume.
-Linear Regression: Perform linear regression analysis to model the relationship between mouse weight and tumor volume. Plot the regression line along with the scatter plot.
+Calculate the correlation coefficient between mouse weight and average tumor volume.
+Perform linear regression analysis to model the relationship between mouse weight and tumor volume.
+Plot the regression line along with the scatter plot.
+
+
+
 Assumptions:
 Each mouse in the study has unique identification (Mouse ID).
+
+Mouse weight doesn't fluctuate significantly.
+
 Tumor volume measurements are accurate and consistent.
+
 The data is representative of the study population and doesn't contain significant errors or biases.
+
 Outliers in the dataset may indicate anomalies but are not necessarily errors.
-Key Takeaways:
-Different drug regimens have varying effects on tumor volume.
-Mouse weight correlates with tumor volume, indicating a potential relationship between these two variables.
-Visualization techniques such as bar plots, pie charts, box plots, and scatter plots provide valuable insights into the data distribution and relationships between variables.
-Statistical analysis helps in quantitatively understanding the central tendency and variability of the data.
-Conclusion:
+
+
+
 This analysis provides a comprehensive understanding of the mouse study data, including data cleaning, summary statistics, visualization, and regression analysis. The findings contribute to the understanding of how different drug regimens affect tumor growth and the relationship between mouse weight and tumor volume.
 
 
